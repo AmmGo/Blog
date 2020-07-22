@@ -2,19 +2,19 @@ module.exports = {
   title: '老派旅人',
   base: '/AmmGo.github.io/',
   description: 'Blog example for Mediumish theme with VuePress',
-  logo: './assets/img/logo.png',
+  logo: './assets/img/avatar1.png',
   theme: require.resolve('../../'),
   themeConfig: {
   authors: [
       {
-      name: 'Sal',
-      avatar: '/assets/img/sal.jpg',
+      name: 'Amm',
+      avatar: '/assets/img/avatar1.png',
       link: 'https://wowthemes.net/donate',
       linktext: 'Follow',
       },
       {
-        name: 'John Doe',
-        avatar: '/assets/img/avatar.png',
+        name: 'Uhz',
+        avatar: '/assets/img/avatar1.png',
         link: 'https://bootstrapstarter.com/',
         linktext: 'Follow',
       },
