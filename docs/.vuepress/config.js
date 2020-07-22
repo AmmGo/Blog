@@ -9,13 +9,13 @@ module.exports = {
       {
       name: 'Amm',
       avatar: '/assets/img/avatar1.png',
-      link: 'https://wowthemes.net/donate',
+      link: 'https://github.com/AmmGo',
       linktext: 'Follow',
       },
       {
         name: 'Uhz',
         avatar: '/assets/img/avatar1.png',
-        link: 'https://bootstrapstarter.com/',
+        link: 'https://github.com/AmmGo',
         linktext: 'Follow',
       },
     ],
@@ -31,7 +31,7 @@ module.exports = {
         },
         {
           type: 'github',
-          link: 'https://github.com/AmmGo/Blog',
+          link: 'https://github.com/AmmGo',
         },
         {
           type: 'gitlab',
