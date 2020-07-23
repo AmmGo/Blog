@@ -1,7 +1,7 @@
 {
-  "name": "vuepress-theme-mediumish",
+  "name": "AmmGo.github.io",
   "version": "1.0.32",
-  "description": "Mediumish blog theme for VuePress",
+  "description": "寒江孤影,江湖故人,相逢何必曾相识",
   "repository": {
     "type": "git",
     "url": "AmmGo/AmmGo.github.io"
@@ -26,12 +26,12 @@
   ],
   "main": "index.js",
   "scripts": {
-  "deploy": "bash deploy.sh",
     "docs:build": "vuepress build docs --temp docs/.temp",
     "docs:dev": "vuepress dev docs --temp docs/.temp",
     "lint": "eslint . --ext .js,.vue",
     "prepublishOnly": "npm run test && npm run docs:build && conventional-changelog -p angular -r 2 -i CHANGELOG.md -s",
-    "test": "jest"
+    "test": "jest",
+    "deploy": "bash deploy.sh"
   },
   "husky": {
     "hooks": {
