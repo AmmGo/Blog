@@ -32,7 +32,7 @@ module.exports = themeConfig => {
   const defaultBlogPluginOptions = {
     directories: [
       {
-        id: 'post',
+        id: 'Amm',
         dirname: '_posts',
         path: '/',
       },
@@ -50,7 +50,7 @@ module.exports = themeConfig => {
   }
 
   let resolvedFeedOptions
-  const isFeedEnabled = themeConfig.feed && themeConfig.feed.canonical_base
+  /**const isFeedEnabled = themeConfig.feed && themeConfig.feed.canonical_base
   if (isFeedEnabled) {
     const {
       rss = true,
@@ -65,7 +65,7 @@ module.exports = themeConfig => {
         json1: { enable: json },
       },
     })
-  }
+  }*/
 
   const properties = [
     'directories',
@@ -74,6 +74,7 @@ module.exports = themeConfig => {
     'sitemap',
     'comment',
     'newsletter',
+	  'valineConfig',
   ]
   const themeConfigPluginOptions = {
     ...pick(themeConfig, properties),

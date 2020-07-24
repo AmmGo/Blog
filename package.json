@@ -1,10 +1,10 @@
 {
   "name": "AmmGo.github.io",
   "version": "1.0.32",
-  "description": "寒江孤影,江湖故人,相逢何必曾相识",
+  "description": "寒江孤影 江湖故人 相逢何必曾相识",
   "repository": {
     "type": "git",
-    "url": "AmmGo/AmmGo.github.io"
+    "url": "git+https://github.com/AmmGo/AmmGo.github.io.git"
   },
   "keywords": [
     "vue",
@@ -15,7 +15,7 @@
     "theme"
   ],
   "license": "MIT",
-  "author": "Amm<17629268080@163.com>",
+  "author": "Amm <17629268080@163.com>",
   "files": [
     "index.js",
     "styles",
@@ -59,7 +59,8 @@
     "lodash": "^4.17.15",
     "remove-markdown": "^0.3.0",
     "vue-feather-icons": "^4.21.0",
-    "vuepress-plugin-smooth-scroll": "^0.0.9"
+    "vuepress-plugin-smooth-scroll": "^0.0.9",
+    "yarn": "^1.22.4"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
@@ -73,12 +74,21 @@
     "jest": "^24.9.0",
     "lint-staged": "^9.5.0",
     "sort-package-json": "^1.31.0",
-    "vuepress": "^1.2.0"
+    "vuepress": "^1.2.0",
+    "vuepress-plugin-comment": "^0.7.3"
   },
   "peerDependencies": {
     "vuepress": "^1.0.0"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
+  },
+  "bugs": {
+    "url": "https://github.com/AmmGo/AmmGo.github.io/issues"
+  },
+  "homepage": "https://github.com/AmmGo/AmmGo.github.io#readme",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
   }
 }
