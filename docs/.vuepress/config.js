@@ -5,7 +5,10 @@ module.exports = {
       {
         componentsDir: './components'
       }
-    ]
+    ], 
+      '@vuepress/back-to-top',true,
+    
+    
   ],
 
   title: '老派旅人',
@@ -109,19 +112,6 @@ module.exports = {
       service: 'disqus',
       shortname: 'demowebsite',
     },
-	/**valineConfig: {
-      appId: 'TJ0z2KH7ih1Q5LMHr3uoB5qH-gzGzoHsz',
-      appKey: 'R5GRRfa7q8RTe3ED6abWiGOj',
-      notify: false,
-      verify: false,
-      avatar: 'mm',
-      placeholder: 'just go go...😁😁',
-      pageSize: 15,
-      visitor: true,
-      highlight: true,
-      recordIP: true
-    },
-	*/
    /**newsletter: {
       endpoint: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&id=8c3d2d214b'
     }, */

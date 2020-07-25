@@ -2,10 +2,6 @@
   "name": "AmmGo.github.io",
   "version": "1.0.32",
   "description": "寒江孤影 江湖故人 相逢何必曾相识",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AmmGo/AmmGo.github.io.git"
-  },
   "keywords": [
     "vue",
     "vuepress",
@@ -14,8 +10,21 @@
     "blog",
     "theme"
   ],
+  "homepage": "https://github.com/AmmGo/AmmGo.github.io#readme",
+  "bugs": {
+    "url": "https://github.com/AmmGo/AmmGo.github.io/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmmGo/AmmGo.github.io.git"
+  },
   "license": "MIT",
   "author": "Amm <17629268080@163.com>",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
   "files": [
     "index.js",
     "styles",
@@ -24,14 +33,14 @@
     "fonts",
     "components"
   ],
-  "main": "index.js",
   "scripts": {
+    "cname": "bash cname.sh",
+    "deploy": "bash deploy.sh",
     "docs:build": "vuepress build docs --temp docs/.temp",
     "docs:dev": "vuepress dev docs --temp docs/.temp",
     "lint": "eslint . --ext .js,.vue",
     "prepublishOnly": "npm run test && npm run docs:build && conventional-changelog -p angular -r 2 -i CHANGELOG.md -s",
-    "test": "jest",
-    "deploy": "bash deploy.sh"
+    "test": "jest"
   },
   "husky": {
     "hooks": {
@@ -63,6 +72,7 @@
     "yarn": "^1.22.4"
   },
   "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.5.2",
     "babel-eslint": "^10.0.3",
     "conventional-changelog-cli": "^2.0.1",
     "eslint": "^6.8.0",
@@ -74,7 +84,7 @@
     "jest": "^24.9.0",
     "lint-staged": "^9.5.0",
     "sort-package-json": "^1.31.0",
-    "vuepress": "^1.2.0",
+    "vuepress": "^1.5.2",
     "vuepress-plugin-comment": "^0.7.3"
   },
   "peerDependencies": {
@@ -82,13 +92,5 @@
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
-  },
-  "bugs": {
-    "url": "https://github.com/AmmGo/AmmGo.github.io/issues"
-  },
-  "homepage": "https://github.com/AmmGo/AmmGo.github.io#readme",
-  "directories": {
-    "doc": "docs",
-    "test": "test"
   }
 }
