@@ -12,7 +12,7 @@ module.exports = {
   ],
 
   title: '老派旅人',
-  base: '/AmmGo.github.io/',
+  base: '/Blog/',
   description: '寒江孤影.江湖故人.相逢何必曾相识',
   logo: './assets/img/avatar.png',
     head: [ // 注入到当前页面的 HTML <head> 中的标签
@@ -100,13 +100,13 @@ module.exports = {
         },
         {
           text: 'Copyright © 1996 - 2018 Amm Corporation, All Rights Reserved',
-          link: 'https://github.com/AmmGo/AmmGo.github.io',
+          link: 'https://github.com/AmmGo/Blog',
         },
       ],
     },
 
     sitemap: {
-      hostname: 'https://github.com/AmmGo/AmmGo.github.io'
+      hostname: 'https://github.com/AmmGo/Blog'
     },
     comment: {
       service: 'disqus',
@@ -116,7 +116,7 @@ module.exports = {
       endpoint: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&id=8c3d2d214b'
     }, */
     feed: {
-      canonical_base: 'https://github.com/AmmGo/AmmGo.github.io',
+      canonical_base: 'https://github.com/AmmGo/Blog',
     },
     smoothScroll: true
   },

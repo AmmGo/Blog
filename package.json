@@ -1,5 +1,5 @@
 {
-  "name": "AmmGo.github.io",
+  "name": "Blog",
   "version": "1.0.32",
   "description": "寒江孤影 江湖故人 相逢何必曾相识",
   "keywords": [
@@ -10,13 +10,13 @@
     "blog",
     "theme"
   ],
-  "homepage": "https://github.com/AmmGo/AmmGo.github.io#readme",
+  "homepage": "https://github.com/AmmGo/Blog#readme",
   "bugs": {
-    "url": "https://github.com/AmmGo/AmmGo.github.io/issues"
+    "url": "https://github.com/AmmGo/Blog/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AmmGo/AmmGo.github.io.git"
+    "url": "git+https://github.com/AmmGo/Blog.git"
   },
   "license": "MIT",
   "author": "Amm <17629268080@163.com>",
