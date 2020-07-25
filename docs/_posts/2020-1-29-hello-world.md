@@ -1,5 +1,5 @@
 ---
-title: 开启大航海时代
+title: 哀吾生之须臾
 date: 2020-1-29
 tags: 
   - theme

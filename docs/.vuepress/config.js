@@ -12,7 +12,6 @@ module.exports = {
   ],
 
   title: '老派旅人',
-  base: '/Blog/',
   description: '寒江孤影.江湖故人.相逢何必曾相识',
   logo: './assets/img/avatar.png',
     head: [ // 注入到当前页面的 HTML <head> 中的标签
