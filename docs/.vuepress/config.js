@@ -1,30 +1,43 @@
 module.exports = {
-   plugins: [
+  plugins: [
     [
       '@vuepress/register-components',
       {
         componentsDir: './components'
       }
-    ], 
-      '@vuepress/back-to-top',true,
-    
-    
+    ],
+    '@vuepress/back-to-top', true,
+
+
   ],
 
   title: '老派旅人',
   description: '寒江孤影.江湖故人.相逢何必曾相识',
   logo: './assets/img/avatar.png',
-    head: [ // 注入到当前页面的 HTML <head> 中的标签
-    ['link', { rel: 'icon', href: '/assets/img/logo.png' }]
+  head: [ // 注入到当前页面的 HTML <head> 中的标签
+    ['link', { rel: 'icon', href: '/assets/img/logo.png' }],
+    ["script",
+      {},
+      `  
+     var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?987e8b97313168ae9eaafd31631a071e";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+      </script>
+      `
+    ]
   ],
   theme: require.resolve('../../'),
   themeConfig: {
-  authors: [
+    authors: [
       {
-      name: 'Amm',
-      avatar: '/assets/img/avatar.png',
-      link: 'https://github.com/AmmGo',
-      linktext: 'Follow',
+        name: 'Amm',
+        avatar: '/assets/img/avatar.png',
+        link: 'https://github.com/AmmGo',
+        linktext: 'Follow',
       },
       {
         name: 'Uhz',
@@ -32,11 +45,11 @@ module.exports = {
         link: 'https://github.com/AmmGo',
         linktext: 'Follow',
       },
-	   {
-      name: 'Sal',
-      avatar: '/assets/img/sal.jpg',
-      link: 'https://wowthemes.net/donate',
-      linktext: 'Follow',
+      {
+        name: 'Sal',
+        avatar: '/assets/img/sal.jpg',
+        link: 'https://wowthemes.net/donate',
+        linktext: 'Follow',
       },
       {
         name: 'John Doe',
@@ -111,9 +124,9 @@ module.exports = {
       service: 'disqus',
       shortname: 'demowebsite',
     },
-   /**newsletter: {
-      endpoint: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&id=8c3d2d214b'
-    }, */
+    /**newsletter: {
+       endpoint: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&id=8c3d2d214b'
+     }, */
     feed: {
       canonical_base: 'https://github.com/AmmGo/Blog',
     },
