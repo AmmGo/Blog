@@ -1,4 +1,7 @@
+# cname.sh
 
+#!/usr/bin/env sh
 
 set -e
-ech 'blog.amm.plus' > docs/.vuepress/dist/CNAME
+
+echo 'blog.amm.plus' > docs/.vuepress/dist/CNAME
